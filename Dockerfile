@@ -14,4 +14,4 @@ RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key
     && rm -rf /src/*.deb
 
 # For node-gyp
-RUN apt-get install -y python
+RUN apt-get install -y python2.7
